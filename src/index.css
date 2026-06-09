@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Space+Grotesk:wght@300..700&family=Inter:wght@300..800&family=JetBrains+Mono:wght@300..700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-lavender-50: #f5f3ff;
+  --color-lavender-100: #e9dfff;
+  --color-lavender-200: #ddd6fe;
+  --color-lavender-300: #c084fc;
+  --color-lavender-400: #ab5cf2;
+  --color-lavender-500: #8b5cf6;
+  --color-lavender-600: #7c3aed;
+  
+  --color-pastelblue-50: #f0f7ff;
+  --color-pastelblue-100: #e0f2fe;
+  --color-pastelblue-200: #bae6fd;
+  --color-pastelblue-500: #38bdf8;
+  
+  --color-blush-50: #fff1f2;
+  --color-blush-100: #ffe8d1;
+  --color-blush-200: #fecdd3;
+  --color-blush-500: #fda4af;
+  
+  --color-peach-50: #fff7ed;
+  --color-peach-100: #ffe8d1;
+  --color-peach-200: #fed7aa;
+  --color-peach-500: #fdba74;
+  
+  --color-teal-muted: #5e9594;
+  --color-teal-light: #e6f1f0;
+}
+
+/* Custom globally useful utilities */
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  background-color: #FDFCFB;
+  color: #2D2D2D;
+  font-family: var(--font-sans);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+html.dark, html.dark body {
+  background-color: #111827;
+  color: #F9FAFB;
+}
+
+/* Custom text selection colors */
+::selection {
+  background-color: #E9DFFF;
+  color: #2D2D2D;
+}
+
+html.dark ::selection {
+  background-color: #7C3AED;
+  color: #F9FAFB;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FDFCFB;
+}
+
+html.dark ::-webkit-scrollbar-track {
+  background: #1F2937;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E5E7EB;
+  border-radius: 9999px;
+}
+
+html.dark ::-webkit-scrollbar-thumb {
+  background: #374151;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D1D5DB;
+}
+
+html.dark ::-webkit-scrollbar-thumb:hover {
+  background: #4B5563;
+}
+
+.bg-radial-glow {
+  background: radial-gradient(circle at 80% 10%, rgba(233, 223, 255, 0.4) 0%, rgba(255, 232, 209, 0.5) 50%, rgba(253, 252, 251, 0.1) 100%);
+}
+
+.custom-glass {
+  background: rgba(253, 252, 251, 0.75);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(45, 45, 45, 0.08);
+}
+
+/* Animated loader and background loops */
+@keyframes infinite-loading {
+  0% { transform: translateX(-100%); }
+  50% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+@utility animate-infinite-loading {
+  animation: infinite-loading 2s infinite ease-in-out;
+}
