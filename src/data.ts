@@ -12,7 +12,7 @@ export const PORTFOLIO_OWNER = {
     linkedin: "https://linkedin.com/in/jezel-batingal",
     dribbble: "https://dribbble.com/jezel-batingal",
     behance: "https://behance.net/jezel-batingal",
-    email: "jezel.batingal@example.com"
+    email: "batingal.jezel@dnsc.edu.ph"
   },
   stats: [
     { value: "5", label: "Brand Design Projects" },

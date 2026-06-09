@@ -33,7 +33,7 @@ export default function Projects() {
           </div>
           <div className="mt-4 md:mt-0">
             <span className="font-mono text-[9px] uppercase tracking-widest text-gray-900 dark:text-white border border-gray-200 dark:border-gray-700 bg-gray-100 dark:bg-gray-800 px-4 py-2.5 rounded-full font-semibold">
-              5 Featured Exhibits
+              3 Featured Exhibits
             </span>
           </div>
         </div>
