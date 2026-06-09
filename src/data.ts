@@ -25,7 +25,7 @@ export const PORTFOLIO_OWNER = {
 export const PROJECTS: Project[] = [
   {
     id: "proj_1",
-    title: "AquaFlow Water Refilling Station",
+    title: "AquaFlow",
     category: "Brand Identity & Marketing Design",
     description: "Complete branding and marketing materials for a modern water refilling business, featuring clean aesthetics and customer-focused messaging.",
     longDescription: "AquaFlow is a premium water refilling station that needed a fresh, trustworthy brand identity. Created comprehensive branding including logo design, color schemes, promotional materials, and customer-facing marketing collateral. The design emphasizes purity, reliability, and modern convenience with a blue color palette that evokes trust and cleanliness.",
@@ -43,7 +43,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: "proj_2",
-    title: "MacFac Industrial Solutions",
+    title: "MacFac",
     category: "Corporate Branding & Print Design",
     description: "Professional branding and promotional materials for an industrial machinery and fabrication company.",
     longDescription: "MacFac required a strong, industrial brand identity that communicates reliability and technical expertise. Developed comprehensive branding materials including business collateral, promotional brochures, and marketing materials that showcase their manufacturing capabilities and professional services.",
@@ -58,41 +58,6 @@ export const PROJECTS: Project[] = [
       "/brochure/thynk unlimited.jpg"
     ],
     stats: { label: "Client Inquiries Increase", value: "+32%" }
-  },
-  {
-    id: "proj_3",
-    title: "Moncofaco Coffee Shop",
-    category: "F&B Brand Identity & Visual Design",
-    description: "Warm and inviting brand identity for a local coffee shop, creating a memorable customer experience through thoughtful design.",
-    longDescription: "Moncofaco needed a brand that reflects the warmth and community spirit of their coffee shop. Created a complete visual identity including logo, menu design, promotional materials, and in-store branding that captures the cozy, welcoming atmosphere they wanted to convey to their customers.",
-    image: "/brochure/moncofaco.jpg",
-    tags: ["F&B Branding", "Visual Identity", "Menu Design", "Customer Experience"],
-    link: "#",
-    year: "2024",
-    role: "Brand & Visual Designer",
-    client: "Moncofaco Coffee",
-    gallery: [
-      "/brochure/moncofaco.jpg"
-    ],
-    stats: { label: "Customer Return Rate", value: "68%" }
-  },
-  {
-    id: "proj_4",
-    title: "Thynk Unlimited Creative Agency",
-    category: "Agency Branding & Marketing",
-    description: "Bold and creative branding for a digital creative agency, showcasing innovation and unlimited creative possibilities.",
-    longDescription: "Thynk Unlimited is a creative agency that needed branding as innovative as their work. Developed a dynamic visual identity with modern typography, vibrant colors, and flexible design systems that communicate creativity, professionalism, and forward-thinking approach to digital solutions.",
-    image: "/brochure/thynk unlimited.jpg",
-    tags: ["Agency Branding", "Creative Direction", "Digital Marketing", "Visual Systems"],
-    link: "#",
-    year: "2024",
-    role: "Lead Brand Designer",
-    client: "Thynk Unlimited",
-    gallery: [
-      "/brochure/thynk unlimited.jpg",
-      "/brochure/thynk unlimited-1.jpg"
-    ],
-    stats: { label: "Brand Recognition", value: "+58%" }
   },
   {
     id: "proj_5",
