@@ -53,7 +53,10 @@ export const PROJECTS: Project[] = [
     year: "2024",
     role: "Brand Designer",
     client: "MacFac Industrial",
-    gallery: [],
+    gallery: [
+      "/brochure/moncofaco.jpg",
+      "/brochure/thynk unlimited.jpg"
+    ],
     stats: { label: "Client Inquiries Increase", value: "+32%" }
   },
   {
@@ -68,7 +71,9 @@ export const PROJECTS: Project[] = [
     year: "2024",
     role: "Brand & Visual Designer",
     client: "Moncofaco Coffee",
-    gallery: [],
+    gallery: [
+      "/brochure/moncofaco.jpg"
+    ],
     stats: { label: "Customer Return Rate", value: "68%" }
   },
   {
@@ -84,6 +89,7 @@ export const PROJECTS: Project[] = [
     role: "Lead Brand Designer",
     client: "Thynk Unlimited",
     gallery: [
+      "/brochure/thynk unlimited.jpg",
       "/brochure/thynk unlimited-1.jpg"
     ],
     stats: { label: "Brand Recognition", value: "+58%" }
